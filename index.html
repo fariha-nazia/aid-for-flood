@@ -35,7 +35,8 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <a class="btn"><img src="./assets/coin.png" alt=""><span>5500</span> BDT</a>
+            <a class="btn"><img src="./assets/coin.png" alt="">
+                <span id="wallet-balance">5500</span> BDT</a>
         </div>
     </div>
     </header>
@@ -46,12 +47,14 @@
     <section>
         <div class="flex justify-center m-12">
             <button 
-            class="border w-30 mr-6 py-2 rounded-md text-white font-semibold bg-lime-500">
+            id="donation-toggle-btn"
+            class="border w-32 mr-6 py-2 rounded-md text-white font-semibold bg-lime-500">
                 Donation
             </button>
 
             <button
-            class="border w-30 py-2 rounded-md font-semibold ">
+            id="history-toggle-btn"
+            class="border w-32 py-2 rounded-md font-semibold ">
                 History
             </button>
         </div>
@@ -61,7 +64,9 @@
 
     <!-- ======================================  Donation Blog ========================================== 
     -->
-    <section class="border border-red-700">
+    <section 
+    id="donation-section"
+    class="border border-red-700">
         <div class="border border-blue-500 flex justify-center">
          <div class="container md:w-1/2">
             <!-- Card 1 -->
@@ -78,7 +83,7 @@
                 <div>
                     <button class="flex justify-start items-center">
                         <img src="./assets/coin.png" alt="" class="mr-2">
-                        <span>0</span>BDT
+                        <span id="card1-total">0</span> BDT
                     </button>
                 </div>
                 <h2 class="card-title mb-3">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -129,7 +134,7 @@
                 <div>
                     <button class="flex justify-start items-center">
                         <img src="./assets/coin.png" alt="" class="mr-2">
-                        <span>0</span>BDT
+                        <span id="card2-total">0</span> BDT
                     </button>
                 </div>
                 <h2 class="card-title mb-3">Donate for Flood Relief in Feni, Bangladesh</h2>
@@ -183,7 +188,7 @@
                 <div>
                     <button class="flex justify-start items-center">
                         <img src="./assets/coin.png" alt="" class="mr-2">
-                        <span>0</span>BDT
+                        <span id="card3-total">0</span> BDT
                     </button>
                 </div>
                 <h2 class="card-title mb-3">Aid for Injured in the Quota Movement</h2>
@@ -214,7 +219,7 @@
                 </div>
                 <div>
                     <button 
-                    id="donate-now-btn3"
+                    id="donate-now-btn-card3"
                     class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now 3</button>
                 </div>
                 </div>        
@@ -223,10 +228,12 @@
             </div>
             <!-- Card 3 End ======================================================-->
     </section>
-    <!-- ======================================  Donation Blog End ========================================== -->
+    <!-- ======================================  Donation Blog End ======================================== -->
 
     <!-- ========================================= History section ======================================-->
-     <section class="hidden">
+     <section 
+     id="history-section"
+     class="hidden">
         <div class="container border border-purple-600 flex justify-center items-center">
             <div class="border border-blue-500 md:w-1/2 w-3/4">
                 <h1 class="text-2xl font-bold">Check You Donation History</h1>
