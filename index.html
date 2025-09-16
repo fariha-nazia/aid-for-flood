@@ -84,25 +84,30 @@
                 <h2 class="card-title mb-3">Donate for Flood at Noakhali, Bangladesh</h2>
                 <p class="text-sm mb-3">
                      The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. <br>
-                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="text-lime-500">Read More</button>
-<!--                     <dialog id="my_modal_2" class="modal">
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-lime-500" onclick="my_modal_2.showModal()">Read More</button>
+                    <dialog id="my_modal_2" class="modal">
                     <div class="modal-box">
-                        <h3 class="text-lg font-bold">Noakhali, Bangladesh</h3>
+                        <h3 class="text-lg font-bold">Flood at Noakhali, Bangladesh</h3>
                         <p class="py-4">
                              The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
                         </p>
                     </div>
                     <form method="dialog" class="modal-backdrop">
-                        <button>close</button>                        
+                        <button>close</button>
                     </form>
-                    </dialog>  -->
+                    </dialog>
+
                 </p>
                 <div>
-                    <input type="text" placeholder="Type here" class="input w-full mb-3" />
+                    <input 
+                    id="input-field-card1"
+                    type="text" placeholder="Type here" class="input w-full mb-3" />
                 </div>
                 <div>
-                    <button class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now</button>
+                    <button 
+                    id="donate-now-btn-card1"
+                    class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now 1</button>
                 </div>
                 </div>        
             </div>
@@ -131,24 +136,32 @@
                 <p class="text-sm mb-3">
                      The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by flood <br>
                      <!-- Open the modal using ID.showModal() method -->
-                    <button class="text-lime-500">Read More</button>
-<!--                     <dialog id="my_modal_2" class="modal">
+                    <button class="text-lime-500" onclick="my_modal_1.showModal()">Read More</button>
+                    <dialog id="my_modal_1" class="modal">
                     <div class="modal-box">
-                        <h3 class="text-lg font-bold">Noakhali, Bangladesh</h3>
+                        <h3 class="text-lg font-bold">Flood Relief in Feni, Bangladesh</h3>
                         <p class="py-4">
-                             The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
+                            The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
                         </p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn">Close</button>
+                        </form>
+                        </div>
                     </div>
-                    <form method="dialog" class="modal-backdrop">
-                        <button>close</button>                        
-                    </form>
-                    </dialog>  -->
+                    </dialog>
+
                 </p>
                 <div>
-                    <input type="text" placeholder="Type here" class="input w-full mb-3" />
+                    <input 
+                    id="input-field-card2"
+                    type="text" placeholder="Type here" class="input w-full mb-3" />
                 </div>
                 <div>
-                    <button class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now</button>
+                    <button 
+                    id="donate-now-btn-card2"
+                    class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now 2</button>
                 </div>
                 </div>        
             </div>
@@ -176,25 +189,33 @@
                 <h2 class="card-title mb-3">Aid for Injured in the Quota Movement</h2>
                 <p class="text-sm mb-3">
                     The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected.<br>
-                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="text-lime-500">Read More</button>
-                    <!-- <dialog id="my_modal_2" class="modal">
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button class="text-lime-500" onclick="my_modal_5.showModal()">Read More</button>
+                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                     <div class="modal-box">
-                        <h3 class="text-lg font-bold">Quota Movement</h3>
+                        <h3 class="text-lg font-bold">Quota Movement, Bangladesh</h3>
                         <p class="py-4">
-                             The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
+                            The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
                         </p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn">Close</button>
+                        </form>
+                        </div>
                     </div>
-                    <form method="dialog" class="modal-backdrop">
-                        <button>close</button>                        
-                    </form>
-                    </dialog>  -->
+                    </dialog>
+ 
                 </p>
                 <div>
-                    <input type="text" placeholder="Type here" class="input w-full mb-3" />
+                    <input 
+                    id="input-field-card3"
+                    type="text" placeholder="Type here" class="input w-full mb-3" />
                 </div>
                 <div>
-                    <button class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now</button>
+                    <button 
+                    id="donate-now-btn3"
+                    class="btn w-full font-semibold border bg-lime-500 text-white">Donate Now 3</button>
                 </div>
                 </div>        
             </div>
@@ -224,7 +245,7 @@
 
 
   
-
+<script src="./scripts/script.js"></script>
 </body>
 </html>
 

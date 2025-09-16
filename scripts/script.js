@@ -1,1 +1,1 @@
-console.log('the script file is working');
+// console.log('the script file is working');
